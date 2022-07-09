@@ -23,8 +23,9 @@ const Header = () => {
       position="sticky"
       sx={{
         background:
-          "linear-gradient(90deg, rgba(58,75,180,1) 2%, rgba(116,49,110,1) 36%, rgba(2,0,161,1) 73%, rgba(69,92,252,1) 100%)",
+          "linear-gradient(90deg, rgba(58,36,101,1) 18%, rgba(50,73,215,0.8186624991793592) 47%, rgba(0,16,32,0.95) 100%)",
       }}
+     
     >
       <Toolbar>
         <Typography className={classes.font} variant="h4">
@@ -33,7 +34,7 @@ const Header = () => {
         {isLoggedIn && (
           <Box display="flex" marginLeft={"auto"} marginRight="auto">
             <Tabs
-              textColor="inherit"
+              textColor="warning"
               value={value}
               onChange={(e, val) => setValue(val)}
             >
