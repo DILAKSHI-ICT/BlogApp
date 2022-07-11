@@ -26,9 +26,9 @@ const UserBlogs = () => {
             key={index}
             isUser={true}
             title={blog.title}
-            //description={blog.description}
-            //imageURL={blog.image}
-            //userName={user.name}
+            description={blog.description}
+            imageURL={blog.image}
+            userName={user.name}
           />
         ))}
     </div>
