@@ -51,10 +51,10 @@ const Header = () => {
                 label="My Blogs"
               />
               <Tab
-                className={classes.font}
-                LinkComponent={Link}
-                to="/blogs/add"
-                label="Add Blog"
+                //className={classes.font}
+                //LinkComponent={Link}
+                //to="/blogs/add"
+                //label="Add Blog"
               />
             </Tabs>
           </Box>
