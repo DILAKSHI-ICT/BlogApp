@@ -61,8 +61,8 @@ const Auth = () => {
           boxShadow="10px 10px 20px #ccc"
           padding={3}
           margin="auto"
-          marginTop={5}
-          borderRadius={5}
+          marginTop={7}
+          borderRadius={7}
         >
           <Typography variant="h2" padding={3} textAlign="center">
             {isSignup ? "Signup" : "Login"}
