@@ -61,8 +61,8 @@ const Auth = () => {
           boxShadow="10px 10px 20px #ccc"
           padding={3}
           margin="auto"
-          marginTop={7}
-          borderRadius={7}
+          marginTop={5}
+          borderRadius={5}
         >
           <Typography variant="h2" padding={3} textAlign="center">
             {isSignup ? "Signup" : "Login"}
@@ -104,7 +104,7 @@ const Auth = () => {
             onClick={() => setIsSignup(!isSignup)}
             sx={{ borderRadius: 3, marginTop: 3 }}
           >
-            Change To {isSignup ? "Login" : "Signup"}
+            Change To {isSignup ? "LOGIN" : "SIGNUP"}
           </Button>
         </Box>
       </form>
