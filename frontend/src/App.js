@@ -4,6 +4,7 @@ import UserBlogs from "./components/UserBlogs";
 import BlogDetail from "./components/BlogDetail";
 import AddBlog from "./components/AddBlog";
 
+
 import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Auth from "./components/Auth";
@@ -24,7 +25,8 @@ function App() {
       <header>
         <Header />
       </header>
-      <main>
+      <main style={{background:'linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%)'}}>
+      {/* <main> */}
         <Routes>
           {!isLoggedIn ? (
             <Route path="/auth" element={<Auth />} />
