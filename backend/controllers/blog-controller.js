@@ -75,7 +75,7 @@ export const getById = async (req, res, next) => {
     return console.log(err);
   }
   if (!blog) {
-    return res.status(404).json({ message: "No Blog Found" });
+    return res.status(404).json({ message: "No Blog Found..!" });
   }
   return res.status(200).json({ blog });
 };
