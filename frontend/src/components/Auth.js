@@ -65,7 +65,7 @@ const Auth = () => {
           borderRadius={5}
         >
           <Typography variant="h2" padding={3} textAlign="center">
-            {isSignup ? "Signup" : "Login"}
+            {isSignup ? "SIGNUP" : "LOGIN"}
           </Typography>
           {isSignup && (
             <TextField
