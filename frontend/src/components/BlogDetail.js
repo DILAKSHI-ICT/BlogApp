@@ -54,7 +54,7 @@ const BlogDetail = () => {
   };
 
   return (
-    <div>
+    <div style={{backgroundColor:'red'}}>
       {inputs && (
         <form onSubmit={handleSubmit}>
           <Box
@@ -65,7 +65,7 @@ const BlogDetail = () => {
             padding={3}
             margin={"auto"}
             marginTop={3}
-            display="flex"
+            display={'fit-content'}
             flexDirection={"column"}
             width={"80%"}
           >
